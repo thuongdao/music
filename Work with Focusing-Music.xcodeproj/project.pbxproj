@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101527EC1C3F50C000286DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101527EB1C3F50C000286DBC /* AppDelegate.swift */; };
+		101527EE1C3F50C000286DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101527ED1C3F50C000286DBC /* ViewController.swift */; };
+		101527F11C3F50C000286DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101527EF1C3F50C000286DBC /* Main.storyboard */; };
+		101527F41C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 101527F21C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld */; };
+		101527F61C3F50C000286DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101527F51C3F50C000286DBC /* Assets.xcassets */; };
+		101527F91C3F50C000286DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101527F71C3F50C000286DBC /* LaunchScreen.storyboard */; };
+		101528041C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101528031C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift */; };
+		1015280F1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		101528001C3F50C000286DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101527E01C3F50C000286DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101527E71C3F50C000286DBC;
+			remoteInfo = "Work with Focusing-Music";
+		};
+		1015280B1C3F50C000286DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101527E01C3F50C000286DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101527E71C3F50C000286DBC;
+			remoteInfo = "Work with Focusing-Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101527E81C3F50C000286DBC /* Work with Focusing-Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work with Focusing-Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101527EB1C3F50C000286DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		101527ED1C3F50C000286DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		101527F01C3F50C000286DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		101527F31C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Work_with_Focusing_Music.xcdatamodel; sourceTree = "<group>"; };
+		101527F51C3F50C000286DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		101527F81C3F50C000286DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		101527FA1C3F50C000286DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101527FF1C3F50C000286DBC /* Work with Focusing-MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Work with Focusing-MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101528031C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_with_Focusing_MusicTests.swift; sourceTree = "<group>"; };
+		101528051C3F50C000286DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1015280A1C3F50C000286DBC /* Work with Focusing-MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Work with Focusing-MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_with_Focusing_MusicUITests.swift; sourceTree = "<group>"; };
+		101528101C3F50C000286DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101527E51C3F50C000286DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101527FC1C3F50C000286DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101528071C3F50C000286DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101527DF1C3F50C000286DBC = {
+			isa = PBXGroup;
+			children = (
+				101527EA1C3F50C000286DBC /* Work with Focusing-Music */,
+				101528021C3F50C000286DBC /* Work with Focusing-MusicTests */,
+				1015280D1C3F50C000286DBC /* Work with Focusing-MusicUITests */,
+				101527E91C3F50C000286DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		101527E91C3F50C000286DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101527E81C3F50C000286DBC /* Work with Focusing-Music.app */,
+				101527FF1C3F50C000286DBC /* Work with Focusing-MusicTests.xctest */,
+				1015280A1C3F50C000286DBC /* Work with Focusing-MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101527EA1C3F50C000286DBC /* Work with Focusing-Music */ = {
+			isa = PBXGroup;
+			children = (
+				101527EB1C3F50C000286DBC /* AppDelegate.swift */,
+				101527ED1C3F50C000286DBC /* ViewController.swift */,
+				101527EF1C3F50C000286DBC /* Main.storyboard */,
+				101527F51C3F50C000286DBC /* Assets.xcassets */,
+				101527F71C3F50C000286DBC /* LaunchScreen.storyboard */,
+				101527FA1C3F50C000286DBC /* Info.plist */,
+				101527F21C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld */,
+			);
+			path = "Work with Focusing-Music";
+			sourceTree = "<group>";
+		};
+		101528021C3F50C000286DBC /* Work with Focusing-MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				101528031C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift */,
+				101528051C3F50C000286DBC /* Info.plist */,
+			);
+			path = "Work with Focusing-MusicTests";
+			sourceTree = "<group>";
+		};
+		1015280D1C3F50C000286DBC /* Work with Focusing-MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */,
+				101528101C3F50C000286DBC /* Info.plist */,
+			);
+			path = "Work with Focusing-MusicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101527E71C3F50C000286DBC /* Work with Focusing-Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101528131C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-Music" */;
+			buildPhases = (
+				101527E41C3F50C000286DBC /* Sources */,
+				101527E51C3F50C000286DBC /* Frameworks */,
+				101527E61C3F50C000286DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Work with Focusing-Music";
+			productName = "Work with Focusing-Music";
+			productReference = 101527E81C3F50C000286DBC /* Work with Focusing-Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		101527FE1C3F50C000286DBC /* Work with Focusing-MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101528161C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicTests" */;
+			buildPhases = (
+				101527FB1C3F50C000286DBC /* Sources */,
+				101527FC1C3F50C000286DBC /* Frameworks */,
+				101527FD1C3F50C000286DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101528011C3F50C000286DBC /* PBXTargetDependency */,
+			);
+			name = "Work with Focusing-MusicTests";
+			productName = "Work with Focusing-MusicTests";
+			productReference = 101527FF1C3F50C000286DBC /* Work with Focusing-MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		101528091C3F50C000286DBC /* Work with Focusing-MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101528191C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicUITests" */;
+			buildPhases = (
+				101528061C3F50C000286DBC /* Sources */,
+				101528071C3F50C000286DBC /* Frameworks */,
+				101528081C3F50C000286DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1015280C1C3F50C000286DBC /* PBXTargetDependency */,
+			);
+			name = "Work with Focusing-MusicUITests";
+			productName = "Work with Focusing-MusicUITests";
+			productReference = 1015280A1C3F50C000286DBC /* Work with Focusing-MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		101527E01C3F50C000286DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nadia;
+				TargetAttributes = {
+					101527E71C3F50C000286DBC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					101527FE1C3F50C000286DBC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 101527E71C3F50C000286DBC;
+					};
+					101528091C3F50C000286DBC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 101527E71C3F50C000286DBC;
+					};
+				};
+			};
+			buildConfigurationList = 101527E31C3F50C000286DBC /* Build configuration list for PBXProject "Work with Focusing-Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 101527DF1C3F50C000286DBC;
+			productRefGroup = 101527E91C3F50C000286DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101527E71C3F50C000286DBC /* Work with Focusing-Music */,
+				101527FE1C3F50C000286DBC /* Work with Focusing-MusicTests */,
+				101528091C3F50C000286DBC /* Work with Focusing-MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101527E61C3F50C000286DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101527F91C3F50C000286DBC /* LaunchScreen.storyboard in Resources */,
+				101527F61C3F50C000286DBC /* Assets.xcassets in Resources */,
+				101527F11C3F50C000286DBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101527FD1C3F50C000286DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101528081C3F50C000286DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101527E41C3F50C000286DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101527EE1C3F50C000286DBC /* ViewController.swift in Sources */,
+				101527F41C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld in Sources */,
+				101527EC1C3F50C000286DBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101527FB1C3F50C000286DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101528041C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101528061C3F50C000286DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1015280F1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101528011C3F50C000286DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101527E71C3F50C000286DBC /* Work with Focusing-Music */;
+			targetProxy = 101528001C3F50C000286DBC /* PBXContainerItemProxy */;
+		};
+		1015280C1C3F50C000286DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101527E71C3F50C000286DBC /* Work with Focusing-Music */;
+			targetProxy = 1015280B1C3F50C000286DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		101527EF1C3F50C000286DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101527F01C3F50C000286DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		101527F71C3F50C000286DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101527F81C3F50C000286DBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		101528111C3F50C000286DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		101528121C3F50C000286DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		101528141C3F50C000286DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		101528151C3F50C000286DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		101528171C3F50C000286DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Work with Focusing-MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Work with Focusing-Music.app/Work with Focusing-Music";
+			};
+			name = Debug;
+		};
+		101528181C3F50C000286DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Work with Focusing-MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Work with Focusing-Music.app/Work with Focusing-Music";
+			};
+			name = Release;
+		};
+		1015281A1C3F50C000286DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Work with Focusing-MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Work with Focusing-Music";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1015281B1C3F50C000286DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Work with Focusing-MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Work with Focusing-Music";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101527E31C3F50C000286DBC /* Build configuration list for PBXProject "Work with Focusing-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101528111C3F50C000286DBC /* Debug */,
+				101528121C3F50C000286DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101528131C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101528141C3F50C000286DBC /* Debug */,
+				101528151C3F50C000286DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		101528161C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101528171C3F50C000286DBC /* Debug */,
+				101528181C3F50C000286DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		101528191C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1015281A1C3F50C000286DBC /* Debug */,
+				1015281B1C3F50C000286DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		101527F21C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				101527F31C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodel */,
+			);
+			currentVersion = 101527F31C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodel */;
+			path = Work_with_Focusing_Music.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 101527E01C3F50C000286DBC /* Project object */;
+}
