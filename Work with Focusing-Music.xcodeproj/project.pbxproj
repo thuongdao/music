@@ -15,6 +15,11 @@
 		101527F91C3F50C000286DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101527F71C3F50C000286DBC /* LaunchScreen.storyboard */; };
 		101528041C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101528031C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift */; };
 		1015280F1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */; };
+		1015281E1C3F543F00286DBC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1015281D1C3F543F00286DBC /* play.png */; };
+		10A4B5321C3F55FA00FC13A6 /* work_water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A4B5311C3F55FA00FC13A6 /* work_water.mp4 */; };
+		10A4B5341C3F61D100FC13A6 /* work_wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10A4B5331C3F61D100FC13A6 /* work_wind.mp3 */; };
+		10A4B5361C3F629E00FC13A6 /* activity_baroque.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10A4B5351C3F629E00FC13A6 /* activity_baroque.mp3 */; };
+		10A4B5631C3FA58F00FC13A6 /* ListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4B5621C3FA58F00FC13A6 /* ListItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1015280A1C3F50C000286DBC /* Work with Focusing-MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Work with Focusing-MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_with_Focusing_MusicUITests.swift; sourceTree = "<group>"; };
 		101528101C3F50C000286DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1015281D1C3F543F00286DBC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = "Work with Focusing-Music/Image/play.png"; sourceTree = "<group>"; };
+		10A4B5311C3F55FA00FC13A6 /* work_water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = work_water.mp4; path = Music/work_water.mp4; sourceTree = "<group>"; };
+		10A4B5331C3F61D100FC13A6 /* work_wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = work_wind.mp3; path = Music/work_wind.mp3; sourceTree = "<group>"; };
+		10A4B5351C3F629E00FC13A6 /* activity_baroque.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = activity_baroque.mp3; path = Music/activity_baroque.mp3; sourceTree = "<group>"; };
+		10A4B5621C3FA58F00FC13A6 /* ListItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,8 @@
 		101527EA1C3F50C000286DBC /* Work with Focusing-Music */ = {
 			isa = PBXGroup;
 			children = (
+				10A4B52F1C3F554C00FC13A6 /* Music */,
+				1015281C1C3F541000286DBC /* Image */,
 				101527EB1C3F50C000286DBC /* AppDelegate.swift */,
 				101527ED1C3F50C000286DBC /* ViewController.swift */,
 				101527EF1C3F50C000286DBC /* Main.storyboard */,
@@ -106,6 +118,7 @@
 				101527F71C3F50C000286DBC /* LaunchScreen.storyboard */,
 				101527FA1C3F50C000286DBC /* Info.plist */,
 				101527F21C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld */,
+				10A4B5621C3FA58F00FC13A6 /* ListItemViewController.swift */,
 			);
 			path = "Work with Focusing-Music";
 			sourceTree = "<group>";
@@ -126,6 +139,25 @@
 				101528101C3F50C000286DBC /* Info.plist */,
 			);
 			path = "Work with Focusing-MusicUITests";
+			sourceTree = "<group>";
+		};
+		1015281C1C3F541000286DBC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1015281D1C3F543F00286DBC /* play.png */,
+			);
+			name = Image;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		10A4B52F1C3F554C00FC13A6 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				10A4B5351C3F629E00FC13A6 /* activity_baroque.mp3 */,
+				10A4B5331C3F61D100FC13A6 /* work_wind.mp3 */,
+				10A4B5311C3F55FA00FC13A6 /* work_water.mp4 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A4B5321C3F55FA00FC13A6 /* work_water.mp4 in Resources */,
+				10A4B5341C3F61D100FC13A6 /* work_wind.mp3 in Resources */,
 				101527F91C3F50C000286DBC /* LaunchScreen.storyboard in Resources */,
+				1015281E1C3F543F00286DBC /* play.png in Resources */,
 				101527F61C3F50C000286DBC /* Assets.xcassets in Resources */,
+				10A4B5361C3F629E00FC13A6 /* activity_baroque.mp3 in Resources */,
 				101527F11C3F50C000286DBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				101527EE1C3F50C000286DBC /* ViewController.swift in Sources */,
+				10A4B5631C3FA58F00FC13A6 /* ListItemViewController.swift in Sources */,
 				101527F41C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld in Sources */,
 				101527EC1C3F50C000286DBC /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thuan Nguyen (N53TZ5DH4N)";
 				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61dc427e-e2f7-48ff-bf64-17b373da3c2c";
 			};
 			name = Debug;
 		};
@@ -412,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thuan Nguyen (N53TZ5DH4N)";
 				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61dc427e-e2f7-48ff-bf64-17b373da3c2c";
 			};
 			name = Release;
 		};
@@ -486,6 +529,7 @@
 				101528151C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101528161C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +538,7 @@
 				101528181C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101528191C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +547,7 @@
 				1015281B1C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

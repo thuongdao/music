@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+    var audioPlayer = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +20,24 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func playSound(soundName: String)
+    {
+        
+        let coinSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(soundName, ofType: "mp4")!)
+        
+        do{
+            audioPlayer = try AVAudioPlayer(contentsOfURL:coinSound)
+            audioPlayer.prepareToPlay()
+            audioPlayer.delegate = self
+            audioPlayer.play()
 
+        }catch {
+            print("Error getting the audio file")
+        }
+    }
+    @IBAction func btnPlayClicked(sender: AnyObject) {
+        playSound("work_water")
+    }
 
 }
 
