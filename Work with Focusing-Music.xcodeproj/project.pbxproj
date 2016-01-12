@@ -15,6 +15,7 @@
 		101527F91C3F50C000286DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101527F71C3F50C000286DBC /* LaunchScreen.storyboard */; };
 		101528041C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101528031C3F50C000286DBC /* Work_with_Focusing_MusicTests.swift */; };
 		1015280F1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */; };
+		7869B16C1C40EBE700E93944 /* ListItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7869B16B1C40EBE700E93944 /* ListItemTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1015280A1C3F50C000286DBC /* Work with Focusing-MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Work with Focusing-MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1015280E1C3F50C000286DBC /* Work_with_Focusing_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_with_Focusing_MusicUITests.swift; sourceTree = "<group>"; };
 		101528101C3F50C000286DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7869B16B1C40EBE700E93944 /* ListItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				101527F71C3F50C000286DBC /* LaunchScreen.storyboard */,
 				101527FA1C3F50C000286DBC /* Info.plist */,
 				101527F21C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld */,
+				7869B16B1C40EBE700E93944 /* ListItemTableViewController.swift */,
 			);
 			path = "Work with Focusing-Music";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				101527EE1C3F50C000286DBC /* ViewController.swift in Sources */,
 				101527F41C3F50C000286DBC /* Work_with_Focusing_Music.xcdatamodeld in Sources */,
+				7869B16C1C40EBE700E93944 /* ListItemTableViewController.swift in Sources */,
 				101527EC1C3F50C000286DBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,7 +419,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Work with Focusing-Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.Work-with-Focusing-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +495,7 @@
 				101528151C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101528161C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +504,7 @@
 				101528181C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101528191C3F50C000286DBC /* Build configuration list for PBXNativeTarget "Work with Focusing-MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +513,7 @@
 				1015281B1C3F50C000286DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
